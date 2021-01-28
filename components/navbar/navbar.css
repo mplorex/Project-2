@@ -1,0 +1,68 @@
+nav {
+  margin: 15px 40px;
+}
+nav img {
+  float: left;
+  padding-top: 20px;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  float: left;
+  list-style-type: none;
+  padding: 35px 11px 12px 11px;
+  margin-left: 50px;
+  font-weight: 500;
+  border-top: white solid 1px;
+}
+.signup a {
+  color: #1e90ff;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.accommodationsbtn {
+  color: #1e90ff;
+  border-top: #0065fc solid 1px;
+}
+.activitiesbtn {
+  border-top: #f3f3f3 solid 1px;
+}
+@media only screen and (max-width: 767px) {
+  nav {
+    order: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    position: fixed;
+    height: 120px;
+  }
+  .signup {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    padding-top: 0;
+  }
+  nav img {
+    position: unset;
+    top: 5px;
+    right: 10px;
+    padding-top: 0px;
+    margin-left: 90px;
+  }
+  .accommodationsbtn {
+    border-top: none;
+    border-bottom: #0065fc solid 1px;
+  }
+  .activitiesbtn {
+    border-top: none;
+    border-bottom: #f3f3f3 solid 1px;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+}

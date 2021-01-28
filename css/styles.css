@@ -1,0 +1,40 @@
+
+h4, p {
+  color: black;
+}
+
+
+.sectiont i{
+  float: right;
+  font-size: x-large;
+}
+aside {
+  order: 3;
+  border-radius: 0px;
+  margin: 0;
+}
+.activities {
+  margin: 15px 40px;
+  grid-area: activities;
+}
+.activities h3{
+  margin-left: 0;
+}
+.checked {
+  color: cornflowerblue;
+}
+.stars {
+  margin-top: 5px;
+}
+.empty {
+  color: #ccc;
+}
+@media only screen and (min-width: 768px) and (max-width: 1211px) {
+  nav {
+    margin: 15px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
