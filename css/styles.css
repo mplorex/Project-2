@@ -13,13 +13,6 @@ aside {
   border-radius: 0px;
   margin: 0;
 }
-.activities {
-  margin: 15px 40px;
-  grid-area: activities;
-}
-.activities h3{
-  margin-left: 0;
-}
 .checked {
   color: cornflowerblue;
 }
